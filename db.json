@@ -1,0 +1,174 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Yoga",
+      "password": "Yoga@1234",
+      "email": "yoga@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "Praveen",
+      "name": "Praveen",
+      "password": "Praveen@1234",
+      "email": "praveen@1234",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "GeorgeBluth",
+      "name": "GeorgeBluth",
+      "password": "George@1234",
+      "email": "george.bluth@reqres.in",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "JanetWeaver",
+      "name": "JanetWeaver",
+      "password": "Janet@1234",
+      "email": "janet.weaver@reqres.in",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "EmmaWong",
+      "name": "EmmaWong",
+      "password": "Emma@1234",
+      "email": "emma.wong@reqres.in",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "EveHolt",
+      "name": "EveHolt",
+      "password": "EveHolt@1234",
+      "email": "eve.holt@reqres.in",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "CharlesMorris",
+      "name": "CharlesMorris",
+      "password": "Charles@1234",
+      "email": "charles.morris@reqres.in",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "TraceyRamos",
+      "name": "TraceyRamos",
+      "password": "Tracey@1234",
+      "email": "tracey.ramos@reqres.in",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "Selva",
+      "name": "SelvaKumar",
+      "password": "Selva@1234",
+      "email": "selva@gmal.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "bitsathy",
+      "name": "Bitsathy",
+      "password": "Bitsathy@1234",
+      "email": "bitsathy@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "User"
+    },
+    {
+      "code": "admin",
+      "name": "Technician"
+    }
+  ],
+  "menu": [
+    {
+      "code": "admin",
+      "name": "admin"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "admin",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "admin",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "GeorgeBluth",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 2,
+      "name": "JanetWeaver",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 3,
+      "name": "EmmaWong",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 4,
+      "name": "EveHolt",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 5,
+      "name": "CharlesMorris",
+      "Creditlimit": 1000
+    }
+  ]
+}
