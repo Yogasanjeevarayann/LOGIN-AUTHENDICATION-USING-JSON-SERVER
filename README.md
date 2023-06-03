@@ -1,6 +1,6 @@
 I am yogasanjeevarayan N
 --------------------------
-This project is based on login authendication using JSON   server
+This project is based on login authendication using JSON server
 
 # Authentication
 -----------------
